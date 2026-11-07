@@ -21,11 +21,14 @@ Price ------------/
 
 ## 3. Initial Weight Tracker
 
-| Feature | Tokens (Weight) |
-|---------|-----------------|
-| Food | 1 |
-| Service | 1 |
-| Price | 1 |
+Each star (⭐) represents one weight token.
+More stars indicate greater importance in decision-making.
+
+| Feature | Tokens | Weight |
+|---------|--------|--------|
+| Food | ⭐ | 1 |
+| Service | ⭐ | 1 |
+| Price | ⭐ | 1 |
 
 All features start with equal weights.
 
