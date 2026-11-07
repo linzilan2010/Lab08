@@ -18,3 +18,44 @@ Price ------------/
 |---------|------|----------------|
 | Lorenzo-Ste| Decision Node | Predict LIKE or DISLIKE |
 | Zilan Lin | Input Feeder / Tracker | Read scenarios, reveal answers, track weights |
+
+## 3. Initial Weight Tracker
+
+| Feature | Tokens (Weight) |
+|---------|-----------------|
+| Food | 1 |
+| Service | 1 |
+| Price | 1 |
+
+All features start with equal weights.
+
+## 4. Part A: Training Results
+
+| Card | Food | Service | Price | Prediction | Actual | Correct? |
+|------|------|---------|-------|------------|--------|----------|
+| 1 | Great | Poor | Cheap | TBD | LIKE | TBD |
+| 2 | Bad | Great | Expensive | TBD | DISLIKE | TBD |
+| 3 | Good | Okay | Moderate | TBD | LIKE | TBD |
+| 4 | Poor | Poor | Cheap | TBD | DISLIKE | TBD |
+| 5 | Excellent | Excellent | Expensive | TBD | LIKE | TBD |
+| 6 | Okay | Bad | Moderate | TBD | DISLIKE | TBD |
+| 7 | Great | Okay | Cheap | TBD | LIKE | TBD |
+| 8 | Poor | Excellent | Expensive | TBD | DISLIKE | TBD |
+| 9 | Excellent | Poor | Moderate | TBD | LIKE | TBD |
+| 10 | Okay | Okay | Expensive | TBD | DISLIKE | TBD |
+
+### Weight Adjustment Tracker
+
+| Round | Food | Service | Price | Adjustment |
+|-------|------|---------|-------|------------|
+| Initial | 1 | 1 | 1 | Starting weights |
+| Card 1 | TBD | TBD | TBD | TBD |
+| Card 2 | TBD | TBD | TBD | TBD |
+| Card 3 | TBD | TBD | TBD | TBD |
+| Card 4 | TBD | TBD | TBD | TBD |
+| Card 5 | TBD | TBD | TBD | TBD |
+| Card 6 | TBD | TBD | TBD | TBD |
+| Card 7 | TBD | TBD | TBD | TBD |
+| Card 8 | TBD | TBD | TBD | TBD |
+| Card 9 | TBD | TBD | TBD | TBD |
+| Card 10 | TBD | TBD | TBD | TBD |
