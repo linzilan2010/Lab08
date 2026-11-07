@@ -1,9 +1,13 @@
 # Lab08
 
-Input Layer                  Middle Layer             Output Layer
+## Network Diagram
 
-Food -------------------\
-                         \
-Service -------------------> Decision Node ---------> LIKE / DISLIKE
-                         /
-Price ------------------/
+```text
+Input Layer          Middle Layer         Output Layer
+
+Food -------------\
+                   \
+Service -----------> Decision Node -----> LIKE / DISLIKE
+                   /
+Price ------------/
+```
