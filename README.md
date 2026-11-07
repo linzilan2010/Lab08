@@ -36,8 +36,8 @@ All features start with equal weights.
 
 | Card | Food | Service | Price | Prediction | Actual | Correct? |
 |------|------|---------|-------|------------|--------|----------|
-| 1 | Great | Poor | Cheap | TBD | LIKE | TBD |
-| 2 | Bad | Great | Expensive | TBD | DISLIKE | TBD |
+| 1 | Great | Poor | Cheap | LIKE | LIKE | TBD |
+| 2 | Bad | Great | Expensive | DISLIKE | DISLIKE | TBD |
 | 3 | Good | Okay | Moderate | TBD | LIKE | TBD |
 | 4 | Poor | Poor | Cheap | TBD | DISLIKE | TBD |
 | 5 | Excellent | Excellent | Expensive | TBD | LIKE | TBD |
