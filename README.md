@@ -1,6 +1,6 @@
-# Lab08
+# Lab08 - How a Neural Network Learns
 
-## Network Diagram
+## 1. Network Diagram
 
 ```text
 Input Layer          Middle Layer         Output Layer
@@ -11,3 +11,10 @@ Service -----------> Decision Node -----> LIKE / DISLIKE
                    /
 Price ------------/
 ```
+
+## 2. Team Roles
+
+| Student | Role | Responsibility |
+|---------|------|----------------|
+| Lorenzo-Ste| Decision Node | Predict LIKE or DISLIKE |
+| Zilan Lin | Input Feeder / Tracker | Read scenarios, reveal answers, track weights |
